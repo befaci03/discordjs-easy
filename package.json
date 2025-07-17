@@ -1,0 +1,45 @@
+{
+  "name": "@befacidev/djs-easy",
+  "version": "1.3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Use discord.js but easily for beginners",
+  "keywords": [
+    "djs",
+    "discordjs",
+    "discord.js",
+    "d.js",
+    "npm",
+    "ts",
+    "typescript",
+    "beginner",
+    "easy"
+  ],
+  "type": "commonjs",
+  "homepage": "https://github.com/befaci03/discordjs-easy#readme",
+  "bugs": {
+    "url": "https://github.com/befaci03/discordjs-easy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/befaci03/discordjs-easy.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Befaci",
+  "scripts": {
+    "build": "tsc",
+    "test": "node tests/example.js",
+    "dev": "tsc -w",
+    "publish": "npm publish --access public",
+    "publish-pre": "npm publish --access public --tag prerelease"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/typescript": "^0.4.29",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js": "^14.21.0"
+  }
+}
